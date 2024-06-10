@@ -1,82 +1,22 @@
-# 灵犀智能轨道作业机器人——产品说明说明文档
+# 灵犀智能机器人-产品说明文档
 
-> 【声明⚠️】：本说明文档创建于2022年2月13日18:09，想法DEMO开始于2021年5月21日，<font color=red>数据更新日期：20240109—15：18</font> 开发者：中国铁路沈阳局集团有限公司-沈阳工务机械段-冯宏健。 联系方式：fhj@hongjian.cn，其中所有版本中以本Markdown文档为准，文档中所涉及图片仅供参考，请以实物为准！
-
----
-
-
-
-##  临时笔记区：
-
-
-
-所有硬件于2023年10月16日上午12:20分组装完成（于2023年7月25日开始研发设计制作，执行百日计划！）
-
-笔记中所有图片现已全转存为本地相对路径，断开cdn请求，避免无网不加载！
-
-
-
-<details> <summary>展开查看——月度计划</summary> 内容:<pre>  <code>   //&nbsp;8月档  <br>   事件记录{  <br>   <span class="deletion">-  1 [电缸：速度max=950mm/s（设置值软件限制，软件单位不规范，设置950mm/s=实际95mm/s）]</span>   <br>   <span class="deletion">-  2 [实际硬件允许 500mm/s，扳头套筒下降距离测试489mm （实际钢轨上时估算489+180=669）]</span>   <br>   <span class="addition">+  1 [两螺丝中心距离 ：60cm   ]</span>   <br>   <span class="addition">+  2 [轨道：60/60N  3m 5根枕木]</span> <br>   <span class="addition">+  3 [轨高150mm，轨距螺丝中心9cm-10cm更倾向9cm，取极限9.5cm （普通） ]</span> 
-<br>   }    </code> </pre> 【完】        </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details> <summary>展开查看——开发过程视频及图片记录</summary> 介绍:<pre><img src='https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/kaifa1.JPG' width=40%/><code>开发1</code><img src='https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/kaifa4.JPG' width=40%/><code>开发4</code><img src='https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/kaifa5.JPG' width=40%/><code>开发5</code><img src='https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/kaifa6.JPG' width=40%/><code>开发6</code> <video id="video" controls="" preload="none"> <source id="mp4" src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/bianying1.mp4" type="video/mp4"> </video> <code>  计算机1</code>  <video id="video" controls="" preload="none"> <source id="mp4" src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/bianying2.mp4" type="video/mp4"> </video> <code>  计算机2</code>       </pre> 【完】        </details>
-
-
+> 【声明⚠️】：本说明文档创建于2022年2月13日18:09，想法DEMO开始于2021年5月21日，数据更新日期：20240109—15：18 
+>
+> 开发者：中国铁路沈阳局集团有限公司-沈阳工务机械段-冯宏健。
+>
+> 联系方式：fhj@hongjian.cn；技术支持微信号：work_hj
+>
+> 其中所有版本中以本Markdown文档为准，文档中所涉及图片仅供参考，请以实物为准！
 
 ---
 
 
 
-- &#x27A4; 快速导航                                    方式：&#x27A4; 使用 <kbd>Ctrl</kbd>+<kbd>鼠标点击</kbd>跳转
+### 三维建模图展示
 
-  
+⚠️（部分结构已更改）
 
-  - [01  PLC输入输出点](#PLC输入点)
-  - [02  基业箱快速接头连接图序](#基业箱快速接头连接图序)
-  - [03  采购清单](#采购清单)
-  - [04  M区](#自定义M点)
-  - [05  定时与计数器](#定时与计数器)
-  - [06  V区](#V区)
-  - [07  VB区](#VB区)
-  - [08  VW区](#VW区)
-  - [09  VD区](#VD区)
-
-
-
-
-
-
-
-# 目录
-
-​                                                    **⬆️[回到顶端](#目录)**                                                  **⬇️[到最底端](#联系我们)**
-
-
-
-[TOC]
-
-
-
----
-
-
-
-<center>⬇️⬇️⬇️⬇️以下为正文⬇️⬇️⬇️⬇️</center>
-
-
+![3dzslx0](./images/3dzslx0-4775289.jpeg)
 
 ## 产品简介:
 
@@ -113,7 +53,11 @@ graph TD
     id2((高可靠扩展平台))
 ```
 
-<img src="https://www.hongjian.cn/%E6%88%AA%E5%B1%8F2023-10-16%2021.48.55-4775310.png" alt="alt" style="zoom:50%;" />
+## 视频展示
+
+<video id="video" controls="" preload="none"> <source id="mp4" src="./images/videoPHOTO/lxrobot.mp4" type="video/mp4"> </video>
+
+⚠️注：以上为工程展示产品。
 
 
 
@@ -121,7 +65,70 @@ graph TD
 
 
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_2199-4775291.png"  />
+### 架构图 v1.5
+
+![jiagoutu15](./images/jiagoutu15-4775289.png)
+
+
+
+
+
+- &#x27A4; 快速导航                                    方式：&#x27A4; 使用 <kbd>Ctrl</kbd>+<kbd>鼠标点击</kbd>跳转
+
+  
+
+  - [01  PLC输入输出点](#PLC输入点)
+  - [02  基业箱快速接头连接图序](#基业箱快速接头连接图序)
+  - [03  采购清单](#采购清单)
+  - [04  M区](#1. 自定义M点)
+  - [05  定时与计数器](#3. 定时与计数器)
+
+  - [06  V区](#V区)
+  - [07  VB区](#VB区)
+  - [08  VW区](#VW区)
+  - [09  VD区](#VD区)
+
+
+
+
+
+
+
+# 目录
+
+​                                                    **⬆️[回到顶端](#目录)**                                                  **⬇️[到最底端](#联系我们)**
+
+
+
+[TOC]
+
+
+
+---
+
+
+
+<center>⬇️⬇️⬇️⬇️以下为正文⬇️⬇️⬇️⬇️</center>
+
+<img src="./images/IMG_2199-4775291.png" alt="alt" style="zoom:50%;" />
+
+
+
+##  临时笔记区：
+
+
+
+所有硬件于2023年10月16日上午12:20分组装完成（于2023年7月25日开始研发设计制作，执行百日计划！）
+
+笔记中所有图片现已全转存为本地相对路径，断开cdn请求，避免无网不加载！
+
+
+
+<details> <summary>展开查看——月度计划</summary> 内容:<pre>  <code>   //&nbsp;8月档  <br>   事件记录{  <br>   <span class="deletion">-  1 [电缸：速度max=950mm/s（设置值软件限制，软件单位不规范，设置950mm/s=实际95mm/s）]</span>   <br>   <span class="deletion">-  2 [实际硬件允许 500mm/s，扳头套筒下降距离测试489mm （实际钢轨上时估算489+180=669）]</span>   <br>   <span class="addition">+  1 [两螺丝中心距离 ：60cm   ]</span>   <br>   <span class="addition">+  2 [轨道：60/60N  3m 5根枕木]</span> <br>   <span class="addition">+  3 [轨高150mm，轨距螺丝中心9cm-10cm更倾向9cm，取极限9.5cm （普通） ]</span> 
+<br>   }    </code> </pre> 【完】        </details>
+
+
+<details> <summary>展开查看——开发过程视频及图片记录</summary> 介绍:<pre><img src='./images/videoPHOTO/kaifa1.JPG' width=40%/><code>开发1</code><img src='./images/videoPHOTO/kaifa4.JPG' width=40%/><code>开发4</code><img src='./images/videoPHOTO/kaifa5.JPG' width=40%/><code>开发5</code><img src='./images/videoPHOTO/kaifa6.JPG' width=40%/><code>开发6</code> <video id="video" controls="" preload="none"> <source id="mp4" src="./images/videoPHOTO/lxrobot.mp4" type="video/mp4"> </video> <code>  计算机1</code>  </video> <code>  计算机2</code>       </pre> 【完】        </details>
 
 
 
@@ -133,27 +140,13 @@ graph TD
 
 **⬆️[回到顶端](#目录)**                    **⬇️[到最底端](#联系我们)**
 
-### 三维俯视图
-
-⚠️（部分结构已更改）
-
-![3dzslx0](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/3dzslx0-4775289.jpeg)
-
 
 
 ### 实物图 
 
 
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_2165.jpeg"  />
-
-
-
-
-
-### 架构图 v1.5
-
-![jiagoutu15](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/jiagoutu15-4775289.png)
+<img src="./images/IMG_2165.jpeg" alt="IMG_2165" style="zoom:50%;" />
 
 
 
@@ -161,7 +154,7 @@ graph TD
 
 ### 电气图V1.5
 
-![截屏2023-10-08 09.41.35](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-10-08%2009.41.35-4775290.png)
+![截屏2023-10-08 09.41.35](./images/2023-10-08%2009.41.35-4775290.png)
 
 
 
@@ -169,13 +162,13 @@ graph TD
 
 ###  HMI界面
 
-![截屏2023-08-29 10.58.32](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-08-29%2010.58.32-4775294.png)
+![截屏2023-08-29 10.58.32](./images/2023-08-29%2010.58.32-4775294.png)
 
 
 
 ### IO点位图
 
-![截屏2023-08-29 18.19.52](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-08-29%2018.19.52-4775291.png)
+![截屏2023-08-29 18.19.52](./images/2023-08-29%2018.19.52-4775291.png)
 
 
 
@@ -724,13 +717,13 @@ cn1规划：
 
 - 前向雷达-矩形框
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-10-12%2011.59.32-4775290.png" alt="截屏2023-10-12 11.59.32" style="zoom:50%;" />
+<img src="./images/2023-10-12%2011.59.32-4775290.png" alt="截屏2023-10-12 11.59.32" style="zoom:50%;" />
 
 
 
 - 后向雷达-矩形框
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-10-12%2011.39.12-4775290.png" alt="截屏2023-10-12 11.39.12" style="zoom:50%;" />
+<img src="./images/2023-10-12%2011.39.12-4775290.png" alt="截屏2023-10-12 11.39.12" style="zoom:50%;" />
 
 - io属性：PNP模式默认1、4不勾选，输出高电平；（PNP）
 
@@ -763,7 +756,7 @@ ALIF-元利富          （品牌名）             2线制
 
 - ALIF-AG-39DF             用于伺服电缸上下限位及原点
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_1197-4775290.jpg" alt="ALT" style="zoom:50%;" />
+<img src="./images/IMG_1197-4775290.jpg" alt="ALT" style="zoom:50%;" />
 
 **⬆️[回到顶端](#目录)**                    **⬇️[到最底端](#联系我们)**
 
@@ -838,7 +831,7 @@ ALIF-元利富          （品牌名）             2线制
 
 3. 单相桥式整流器/桥及散热器
 
-   <img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_1458-4775290.jpg" alt="IMG_1458" style="zoom:50%;" />
+   <img src="./images/IMG_1458-4775290.jpg" alt="IMG_1458" style="zoom:50%;" />
 
    
 
@@ -871,7 +864,7 @@ ALIF-元利富          （品牌名）             2线制
 |     GND【SEL1、SEL2共同接入（中间继电器）】     | SEL1、SEL2共同接入（中间继电器） | SEL1、SEL2共同接入（中间继电器） | SEL1、SEL2共同接入（中间继电器） | SEL1、SEL2共同接入（中间继电器） |
 | 5V  【不接，板子供电为usb供电即视频总输出端口】 |               不接               |               不接               |               不接               |               不接               |
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/pcb-4775291.png" alt="pcb" style="zoom:48%;" />
+<img src="./images/pcb-4775291.png" alt="pcb" style="zoom:48%;" />
 
 ​                              <font color=red >  （此图中各对应元器件名称的，按从上倒下，从左到右与上方表格标识一致）</font>
 
@@ -915,7 +908,7 @@ ALIF-元利富          （品牌名）             2线制
 
   - 如图： GND   12V/24V    A    B
 
-    <img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_1426-4775291.jpg" alt="ALT" style="zoom:50%;" />
+    <img src="./images/IMG_1426-4775291.jpg" alt="ALT" style="zoom:50%;" />
 
 
 
@@ -939,11 +932,11 @@ ALIF-元利富          （品牌名）             2线制
 
  <font color=red>  **1-q0.0 ｜ 3-q0.2 ｜ 2、4接plc负极 ｜8(数字输入)-24v+｜7(数字输入公共com端)--0v-**  </font> 
 
-![IMG_1199](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_1199-4775291.jpg)
+![IMG_1199](./images/IMG_1199-4775291.jpg)
 
 
 
-![IMG_1200](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_1200-4775291.jpg)
+![IMG_1200](./images/IMG_1200-4775291.jpg)
 
 
 
@@ -951,7 +944,7 @@ ALIF-元利富          （品牌名）             2线制
 
 **⬆️[回到顶端](#目录)**                    **⬇️[到最底端](#联系我们)**
 
-![截屏2023-08-25 22.17.15](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-08-25%2022.17.15-4775291.png)
+![截屏2023-08-25 22.17.15](./images/2023-08-25%2022.17.15-4775291.png)
 
 #### 采购清单
 
@@ -996,7 +989,7 @@ ALIF-元利富          （品牌名）             2线制
 
 ##### 4 语音播报器
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-10-12%2013.49.16-4775291.png" alt="截屏2023-10-12 13.49.16" style="zoom:33%;" />
+<img src="./images/2023-10-12%2013.49.16-4775291.png" alt="截屏2023-10-12 13.49.16" style="zoom:33%;" />
 
 - 品牌：科星互联
 - 485语音输出模块          ETV001-485               24V                             151RMB/个
@@ -1034,7 +1027,7 @@ ALIF-元利富          （品牌名）             2线制
 
 - **远距离变焦工业镜头：**
 
-  ![截屏2023-09-27 12.41.51](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-09-27%2012.41.51-4775291.png)
+  ![截屏2023-09-27 12.41.51](./images/2023-09-27%2012.41.51-4775291.png)
 
   
 
@@ -1050,7 +1043,7 @@ ALIF-元利富          （品牌名）             2线制
 
   重量：152g镜头+100多克机身=300克
 
-  <img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-09-27%2012.42.03-4775292.png" alt="截屏2023-09-27 12.42.03" style="zoom:40%;" />
+  <img src="./images/2023-09-27%2012.42.03-4775292.png" alt="截屏2023-09-27 12.42.03" style="zoom:40%;" />
 
 镜头选型：
 
@@ -1064,11 +1057,11 @@ ALIF-元利富          （品牌名）             2线制
 
   25mm 焦距看远处，视距长，但 FOV 小。
 
-  <img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-09-27%2012.43.30-4775296.png" alt="截屏2023-09-27 12.43.30" style="zoom:33%;" />
+  <img src="./images/2023-09-27%2012.43.30-4775296.png" alt="截屏2023-09-27 12.43.30" style="zoom:33%;" />
 
   6mm 焦距看近处，视距短，但 FOV 大。
 
-  <img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-09-27%2012.43.42-4775294.png" style="zoom:33%;" />
+  <img src="./images/2023-09-27%2012.43.42-4775294.png" style="zoom:33%;" />
 
 - **镜头参考值：**
 
@@ -1157,7 +1150,7 @@ ALIF-元利富          （品牌名）             2线制
 
 
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/Jetbot_animation_500x282_2-20240109124131184.gif" alt="show" />
+<img src="./images/Jetbot_animation_500x282_2-20240109124131184.gif" alt="show" />
 
 
 
@@ -1185,7 +1178,7 @@ ALIF-元利富          （品牌名）             2线制
 
 ##### 16作业主体
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-10-16%2021.12.24-4775301.png" alt="截屏2023-10-16 21.12.24" style="zoom:50%;" />
+<img src="./images/2021.12.24-4775301.png" alt="截屏2023-10-16 21.12.24" style="zoom:50%;" />
 
 - 品牌 重庆铸达科技有限责任公司——  NLB-650双头内燃螺栓扳手   80kg   (段采用第四代产品)        大约8000元以内   
 
@@ -1211,7 +1204,7 @@ ALIF-元利富          （品牌名）             2线制
 
 ##### 18能源系统及电池
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_2146.jpeg" alt="IMG_2146" style="zoom:30%;" />
+<img src="./images/IMG_2146.jpeg" alt="IMG_2146" style="zoom:30%;" />
 
 - 品牌： 深圳市蒲迅电池有限公司
 - 型号：电池组 13S1P      48V125AH          + 充电器（有预计充功能）   
@@ -1222,7 +1215,7 @@ ALIF-元利富          （品牌名）             2线制
 
 设计方案：单位【毫米/MM】
 
-![截屏2023-10-16 12.53.20](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-10-16%2012.53.20-4775295.png)
+![截屏2023-10-16 12.53.20](./images/2012.53.20-4775295.png)
 
 - 补充：
 
@@ -1293,7 +1286,7 @@ ALIF-元利富          （品牌名）             2线制
 
 - 凯基特-背景抑制光电传感器  型号：KJT-BJ30TR-CE   24V直流三线PNP 常开   方形       160RMB/个   
 
-  ![l0a8e61d332a020c8902700d95ac31991-s156799581624605015-m53bf4943e036bf0b7385884701c77584](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/l0a8e61d332a020c8902700d95ac31991-s156799581624605015-m53bf4943e036bf0b7385884701c77584-4775295.jpg)
+  ![l0a8e61d332a020c8902700d95ac31991-s156799581624605015-m53bf4943e036bf0b7385884701c77584](./images/l0a8e61d332a020c8902700d95ac31991-s156799581624605015-m53bf4943e036bf0b7385884701c77584-4775295.jpg)
 
   -  `棕+  蓝-  黑信号`
   -  `光斑大小：10mm x 10mm正方形`
@@ -1391,7 +1384,7 @@ ALIF-元利富          （品牌名）             2线制
 
 - 绿色一侧常开
 
-  ![IMG_1435](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_1435.jpeg)
+  ![IMG_1435](./images/IMG_1435.jpeg)
 
 ##### 24 PD65W诱骗线
 
@@ -1439,7 +1432,7 @@ ALIF-元利富          （品牌名）             2线制
 
 - 设计图：
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-08-29%2012.06.36-4775296.png" alt="Alt" style="zoom:20%;" />
+<img src="./images/2023-08-29%2012.06.36-4775296.png" alt="Alt" style="zoom:20%;" />
 
 
 
@@ -1454,7 +1447,7 @@ ALIF-元利富          （品牌名）             2线制
 
   
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-08-27%2013.04.43-4775297.png" alt="alt" style="zoom:40%;" />
+<img src="./images/2023-08-27%2013.04.43-4775297.png" alt="alt" style="zoom:40%;" />
 
 
 
@@ -1488,7 +1481,7 @@ ALIF-元利富          （品牌名）             2线制
 
   - 金属魔术臂直播手机支架——标配【二节】58cm魔术臂  上1/4螺丝 下3/8螺丝    88元/件
 
-    <img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_1443.jpeg" alt="IMG_1443" style="zoom:50%;" />
+    <img src="./images/IMG_1443.jpeg" alt="IMG_1443" style="zoom:50%;" />
 
 ##### 34 usb数据线/网线
 
@@ -1583,7 +1576,7 @@ m6*70 （一套2粒） 买2套 3.4x2=6.8元
 
 ##### 44  **尼龙轨道轮**
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_2081-4775296.jpg" alt="IMG_2081" style="zoom:33%;" />
+<img src="./images/IMG_2081-4775296.jpg" alt="IMG_2081" style="zoom:33%;" />
 
 - 品牌：淘宝-“临桐旗舰店”
 - T型尼龙槽轮单边轮/货梯升降机/地铁矿山火车轨道轮/槽钢方钢滑轮
@@ -1592,7 +1585,7 @@ m6*70 （一套2粒） 买2套 3.4x2=6.8元
 
 ##### 45  **电源快速接头**
 
-![IMG_2147](https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_2147.jpeg)
+![IMG_2147](./images/IMG_2147.jpeg)
 
 
 
@@ -1797,7 +1790,7 @@ m6*70 （一套2粒） 买2套 3.4x2=6.8元
 > 
 >
 > 运载         M26.6-----V30.0                 松螺栓     M26.0------M15.4            紧螺栓V88.0---V996.6    
->         全松螺栓 M30.0-----V16.4                 半松螺栓  V996.1-----V996.0 
+>      全松螺栓 M30.0-----V16.4                 半松螺栓  V996.1-----V996.0 
 
 #### IO中继
 
@@ -3118,7 +3111,6 @@ I==>J[返回程序选择界面]
 ```
 
 
-
 graph LR
 subgraph 运行程序
 A[作业模式]==>B(松螺栓)
@@ -3149,7 +3141,6 @@ end
 #### HMI松螺栓
 
 ```mermaid
-
 
 
 graph LR
@@ -3466,7 +3457,6 @@ sm0.0常闭，主轮VD304当前速度MOV_D到VD348
 ### API接口文档
 
 ```
-
 触发蜂鸣器：
 
 在标签名称中加上`_beep(⼩写)`后⾯跟随⼀位数字，如`划痕_beep3 `，`磕碰 _beep6`。 当识别到这个物体或类别或⽂字的时候，蜂鸣器会鸣响相应的时间。 数字为0⾄9之间，数字越⼩，声⾳越短，数字越⻓，声⾳持续时间越久，最⼤ beep9时，时间2秒左右。
@@ -3804,7 +3794,7 @@ SaveLogImage 是否保存⽇志图⽚，会返回⽂件名，1或空字符串
 
 
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-09-27%2012.32.28-4775302.png" alt="截屏2023-09-27 12.32.28" style="zoom:30%;" />
+<img src="./images/2023-09-27%2012.32.28-4775302.png" alt="截屏2023-09-27 12.32.28" style="zoom:30%;" />
 
 ### 硬件尺寸数据
 
@@ -3837,7 +3827,7 @@ SaveLogImage 是否保存⽇志图⽚，会返回⽂件名，1或空字符串
 
 #### 轨道轮配件
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_2081-4775296.jpg" alt="IMG_2081" style="zoom:50%;" />
+<img src="./images/IMG_2081-4775296.jpg" alt="IMG_2081" style="zoom:50%;" />
 
 轨道轮尺寸： 
 
@@ -3874,7 +3864,7 @@ SaveLogImage 是否保存⽇志图⽚，会返回⽂件名，1或空字符串
 
 #### 螺丝固定件
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-08-29%2021.27.28-4775296.png" alt="截屏2023-08-29 21.27.28" style="zoom:50%;" />
+<img src="./images/2023-08-29%2021.27.28-4775296.png" alt="截屏2023-08-29 21.27.28" style="zoom:50%;" />
 
 ##### 0. 机器自带件：
 
@@ -3954,7 +3944,7 @@ SaveLogImage 是否保存⽇志图⽚，会返回⽂件名，1或空字符串
 
 ### 钣金加工耗材
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2023-08-29%2021.28.22-4775297.png" alt="截屏2023-08-29 21.28.22" style="zoom:50%;" />
+<img src="./images/2023-08-29%2021.28.22-4775297.png" alt="截屏2023-08-29 21.28.22" style="zoom:50%;" />
 
 钻孔
 
@@ -4145,11 +4135,7 @@ SaveLogImage 是否保存⽇志图⽚，会返回⽂件名，1或空字符串
 
 
 
-![截屏2022-11-04 20.49.17](.https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/%E6%88%AA%E5%B1%8F2022-11-04%2020.49.17-4775297.png)
-
-
-
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/logo-4775297.png" alt="logo" style="zoom:80%;" />
+<img src="./images/2022-11-04 20.49.17.png" alt="logo" style="zoom:80%;" />
 
 
 
@@ -4159,13 +4145,13 @@ SaveLogImage 是否保存⽇志图⽚，会返回⽂件名，1或空字符串
 
 **有关该项目更多详细信息请阅读官方技术支持文档：**
 
-- 详情欢迎点击该链接参阅： ~~https://blog.hongjian.cn~~   (注⚠️：网站升级中，暂停访问！)
-
 - 友情链接：弘建网（ https://www.hongjian.cn ）(注⚠️：这是开发者个人网站，欢迎大家访问！)
 
+- 欢迎添加微信合作交流：
+
+- <img src="./images/wxewm.jpg" alt="logo" style="zoom:50%;" />
+
   
-
-
 
 
 
