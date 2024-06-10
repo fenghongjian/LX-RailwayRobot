@@ -1,6 +1,6 @@
-# 产品说明文档
+# 灵犀智能轨道作业机器人——产品说明说明文档
 
-> **【声明⚠️】：**本说明文档创建于2022年2月13日18:09，想法DEMO开始于2021年5月21日，<font color=red>数据更新日期：20240109—15：18</font> 编者：冯宏健，其中所有版本中以本Markdown文档为准，文档中所涉及图片仅供参考，请以实物为准！
+> 【声明⚠️】：本说明文档创建于2022年2月13日18:09，想法DEMO开始于2021年5月21日，<font color=red>数据更新日期：20240109—15：18</font> 编者：冯宏健，其中所有版本中以本Markdown文档为准，文档中所涉及图片仅供参考，请以实物为准！
 
 ---
 
@@ -25,11 +25,10 @@
 
 
 
-<details> <summary>展开查看——快剪视频</summary> 快剪:<pre> <video id="video" controls="" preload="none"> <source id="mp4" src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/jieshao1.mp4" type="video/mp4"> </video> <code>  剪辑版</code> </pre> 【完】        </details>
 
 
 
-<details> <summary>展开查看——介绍实物视频</summary> 介绍:<pre> <video id="video" controls="" preload="none"> <source id="mp4" src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/jieshao2.MOV" type="video/mp4"> </video> <code>  第二个</code> <video id="video" controls="" preload="none"> <source id="mp4" src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/jieshao3.MOV" type="video/mp4"> </video> <code>  第三个</code> <video id="video" controls="" preload="none"> <source id="mp4" src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/jieshao4.MOV" type="video/mp4"> </video> <code>  第四个</code> <video id="video" controls="" preload="none"> <source id="mp4" src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/jieshao5.MOV" type="video/mp4"> </video> <code>  第五个</code>  <video id="video" controls="" preload="none"> <source id="mp4" src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/jieshao7.MOV" type="video/mp4"> </video> <code>  第七个</code> <video id="video" controls="" preload="none"> <source id="mp4" src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/videoPHOTO/jieshao8.MOV" type="video/mp4"> </video> <code>  第八个</code> </pre> 【完】        </details>
+
 
 
 
@@ -48,9 +47,8 @@
   - [01  PLC输入输出点](#PLC输入点)
   - [02  基业箱快速接头连接图序](#基业箱快速接头连接图序)
   - [03  采购清单](#采购清单)
-  - [04  M区](#1. 自定义M点)
-  - [05  定时与计数器](#3. 定时与计数器)
-
+  - [04  M区](#自定义M点)
+  - [05  定时与计数器](#定时与计数器)
   - [06  V区](#V区)
   - [07  VB区](#VB区)
   - [08  VW区](#VW区)
