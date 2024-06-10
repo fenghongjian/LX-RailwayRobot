@@ -113,7 +113,7 @@ graph TD
     id2((高可靠扩展平台))
 ```
 
-<img src="./images/%E6%88%AA%E5%B1%8F2023-10-16%2021.48.55-4775310.png" alt="alt" style="zoom:50%;" />
+<img src="https://www.hongjian.cn/%E6%88%AA%E5%B1%8F2023-10-16%2021.48.55-4775310.png" alt="alt" style="zoom:50%;" />
 
 
 
@@ -121,7 +121,7 @@ graph TD
 
 
 
-<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_2199-4775291.png" alt="alt" style="zoom:50%;" />
+<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_2199-4775291.png"  />
 
 
 
@@ -145,7 +145,7 @@ graph TD
 
 
 
-<img src="./images/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_2165.jpeg" alt="IMG_2165" style="zoom:50%;" />
+<img src="https://www.hongjian.cn/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C%20(copy).assets/IMG_2165.jpeg"  />
 
 
 
